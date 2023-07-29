@@ -489,6 +489,9 @@ video {
 .z-10 {
   z-index: 10;
 }
+.z-0 {
+  z-index: 0;
+}
 .z-\[0\] {
   z-index: 0;
 }
@@ -506,17 +509,17 @@ video {
 .-mt-\[50\] {
   margin-top: -50;
 }
+.mt-\[8px\] {
+  margin-top: 8px;
+}
+.mt-\[28px\] {
+  margin-top: 28px;
+}
 .flex {
   display: flex;
 }
 .hidden {
   display: none;
-}
-.h-\[24px\] {
-  height: 24px;
-}
-.h-\[38px\] {
-  height: 38px;
 }
 .h-\[300px\] {
   height: 300px;
@@ -527,11 +530,23 @@ video {
 .h-\[100px\] {
   height: 100px;
 }
+.h-\[24px\] {
+  height: 24px;
+}
+.h-\[38px\] {
+  height: 38px;
+}
+.h-\[18px\] {
+  height: 18px;
+}
 .w-1\/2 {
   width: 50%;
 }
 .w-full {
   width: 100%;
+}
+.w-\[100px\] {
+  width: 100px;
 }
 .w-\[100\%\] {
   width: 100%;
@@ -542,8 +557,8 @@ video {
 .w-\[60px\] {
   width: 60px;
 }
-.w-\[100px\] {
-  width: 100px;
+.w-\[18px\] {
+  width: 18px;
 }
 .flex-row {
   flex-direction: row;
@@ -616,6 +631,9 @@ video {
 .pl-6 {
   padding-left: 1.5rem;
 }
+.pr-\[40px\] {
+  padding-right: 40px;
+}
 .pt-12 {
   padding-top: 3rem;
 }
@@ -625,8 +643,8 @@ video {
 .pt-\[98px\] {
   padding-top: 98px;
 }
-.pr-\[40px\] {
-  padding-right: 40px;
+.text-center {
+  text-align: center;
 }
 .text-\[24px\] {
   font-size: 24px;
@@ -634,11 +652,20 @@ video {
 .text-\[44px\] {
   font-size: 44px;
 }
+.text-\[14px\] {
+  font-size: 14px;
+}
+.text-\[20px\] {
+  font-size: 20px;
+}
 .font-extrabold {
   font-weight: 800;
 }
 .font-bold {
   font-weight: 700;
+}
+.font-normal {
+  font-weight: 400;
 }
 .uppercase {
   text-transform: uppercase;
@@ -652,6 +679,10 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+.text-secondary-white {
+  --tw-text-opacity: 1;
+  color: rgb(199 199 199 / var(--tw-text-opacity));
 }
 
 * {
@@ -769,12 +800,12 @@ video {
     margin-top: -70px;
   }
 
-  .sm\:h-\[48px\] {
-    height: 48px;
-  }
-
   .sm\:h-\[500px\] {
     height: 500px;
+  }
+
+  .sm\:h-\[48px\] {
+    height: 48px;
   }
 
   .sm\:w-\[80px\] {
@@ -809,6 +840,10 @@ video {
 
   .sm\:text-\[60px\] {
     font-size: 60px;
+  }
+
+  .sm\:text-\[32px\] {
+    font-size: 32px;
   }
 
   .sm\:leading-\[74\.4px\] {
