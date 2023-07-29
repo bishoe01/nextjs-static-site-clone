@@ -1,23 +1,34 @@
-# nextjs-static-site-clone
-NextJs, Tailwindcss, framer-motion, clone , responsive-web
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+## Getting Started
 
-프로젝트 소개: Next.js 반응형 웹 클론 프로젝트
+First, run the development server:
 
-이 프로젝트는 Framer Motion, Tailwind CSS, 그리고 Next.js를 활용하여 반응형 웹 사이트를 클론하는 프론트엔드 개발 프로젝트입니다.
+```bash
+npm run dev
+# or
+yarn dev
+```
 
-주요 기술:
-- Next.js: 최신 React 프레임워크인 Next.js를 사용하여 빠르고 확장 가능한 애플리케이션을 개발합니다.
-- Framer Motion: 애니메이션과 모션 효과를 쉽게 구현하기 위해 Framer Motion 라이브러리를 활용합니다.
-- Tailwind CSS: 반응형 디자인을 빠르게 구축하기 위해 Tailwind CSS를 자주 활용합니다.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-프로젝트 목표:
-이 프로젝트의 주요 목표는 주어진 웹 사이트를 클론하면서 Next.js를 기반으로 한 모바일 웹 애플리케이션을 개발하는 것입니다. 반응형 디자인을 적용하여 다양한 디바이스에서 동작할 수 있도록 구현합니다.
+You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
-주요 기능:
-1. 웹 사이트 클론: 주어진 웹 사이트의 디자인과 레이아웃을 최대한 유사하게 구현합니다.
-2. 반응형 디자인: 다양한 디바이스에서 동작하도록 반응형 디자인을 적용합니다.
-3. 애니메이션 효과: Framer Motion을 사용하여 웹 요소들에 자연스러운 애니메이션 효과를 적용합니다.
-4. Tailwind CSS 스타일링: Tailwind CSS를 활용하여 간편하고 일관된 스타일링을 적용합니다.
+[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
 
-이 프로젝트를 통해 Next.js와 관련 라이브러리들에 익숙해지고, 반응형 웹 개발 능력을 향상시킬 수 있습니다. 또한 클론 프로젝트를 통해 실제 웹 개발 시나리오에 익숙해지고 최신 웹 개발 동향을 파악할 수 있습니다.
+The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+
+## Learn More
+
+To learn more about Next.js, take a look at the following resources:
+
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
