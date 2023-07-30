@@ -1,34 +1,37 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# NEXT JS 정적 사이트 프로젝트 <METAVERSUS>
 
-## Getting Started
+## 시작하기
 
-First, run the development server:
+먼저, 개발 서버를 실행합니다
 
 ```bash
+git clone git@github.com:bishoe01/nextjs-static-site-clone.git
+
+npm install
+
 npm run dev
-# or
-yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+# 반응형 웹 사이트를 클론
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+#Framer Motion
+#Tailwind CSS
+#Next.js
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+## 주요 기술
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+- Next.js: 최신 React 프레임워크인 Next.js를 사용하여 빠르고 확장 가능한 애플리케이션을 개발합니다.
+- Framer Motion: 애니메이션과 모션 효과를 쉽게 구현하기 위해 Framer Motion 라이브러리를 활용합니다.
+- Tailwind CSS: 반응형 디자인을 빠르게 구축하기 위해 Tailwind CSS를 자주 활용합니다.
 
-## Learn More
+## 프로젝트 목표
 
-To learn more about Next.js, take a look at the following resources:
+프로젝트의 주요 목표는 주어진 웹 사이트를 클론하면서 Next.js를 기반 웹 개발.
+반응형 디자인을 적용하여 다양한 디바이스에서 동작할 수 있도록 구현합니다.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 주요 기능
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+1. 웹 사이트 클론: 주어진 웹 사이트의 디자인과 레이아웃을 최대한 유사하게 구현합니다.
+2. 반응형 디자인: 다양한 디바이스에서 동작하도록 반응형 디자인을 적용합니다.
+3. 애니메이션 효과: Framer Motion을 사용하여 웹 요소들에 자연스러운 애니메이션 효과를 적용합니다.
+4. Tailwind CSS 스타일링: Tailwind CSS를 활용하여 간편하고 일관된 스타일링을 적용합니다.
